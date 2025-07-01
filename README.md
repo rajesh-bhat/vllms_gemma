@@ -2,6 +2,7 @@
 repo to explore gemma based models with vllms
 
 ## vLLM Requirements without Flash Attention
+```
 ## Essential dependencies only
 
 ### Core PyTorch with CUDA 12.1 support
@@ -32,3 +33,4 @@ xformers>=0.0.22
 
 ### Numerical computing
 numpy>=1.24.0
+```
