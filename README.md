@@ -1,5 +1,12 @@
-# vllms_gemma
-repo to explore gemma based models with vllms
+# PaliGemma Inference Comparison: vLLM vs Standard Transformers
+This repository contains two Jupyter notebooks comparing PaliGemma inference performance using standard Transformers library versus vLLM optimization framework.
+
+## 📚 Notebooks
+
+paligemma_without_vllm_inference.ipynb - Standard Transformers implementation <br>
+paligemma_vllm_inference.ipynb - vLLM optimized implementation
+
+**vLLM provides 35% faster inference(based on the example chosen in the notebook) with identical model quality, making it the preferred choice for production deployments where the initialization overhead can be amortized across multiple inference requests**
 
 ## vLLM Requirements without Flash Attention
 ```
