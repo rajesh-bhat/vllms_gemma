@@ -41,3 +41,4 @@ xformers>=0.0.22
 ### Numerical computing
 numpy>=1.24.0
 ```
+Google Cloud credits are provided for this project #AISprint
